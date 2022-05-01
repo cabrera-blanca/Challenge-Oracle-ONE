@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <!--Fontawsome-->
+    <script src="https://kit.fontawesome.com/2b9f7eac64.js" crossorigin="anonymous"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="main.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <main class="main">
+        <!--Logo-->
+        <div id="logo">
+            <img src="media/logo.png" alt="logo-one" >
+        </div>
+    
+       
+        <!--Text-->
+        <div id="input-container"> 
+            <textarea name="mensaje" id="mensaje" placeholder="Escriba aqui su mensaje..." ></textarea>
+        </div>
+
+        
+        <!--Info-->
+        <div id="info" class="info1">
+            <i class="fa-solid fa-circle-info fa-lg" ></i>
+            <p>
+                Solo letras minúsculas y sin acento.
+            </p>
+        </div>
+
+        <!--Botones-->
+        <div class="botones">
+            <button id="encriptar-btn">
+                ENCRIPTAR
+            </button>
+            <button id="desencriptar-btn">
+                DESENCRIPTAR
+            </button>
+        </div>
+    
+            <!--Final text-->
+        <div id="imagen-texto">
+            
+            <img src="media/img2.png" alt="mensaje-2" id="img2">
+
+            
+            <img src="media/imagen-mje.jpg" alt="mensaje" id="img1">
+                
+            <div class="resultado" id="resultado">
+                    
+                <textarea name="texto-final" id="final-text" class="final-text2"></textarea>
+
+                <button id="copiar-btn">
+                    Copiar
+                </button>
+                <button id="limpiar-btn">
+                    Limpiar
+                </button>
+            </div>
+        </div>
+
+        
+        
+    </main>  
+    
+    <!--Footer-->
+    <footer>
+    <p id="copy">
+            By Blanca Lucia Cabrera ✨
+        </p>
+    </footer>
+    
+    <!--JS-->
+    <script src="main.js"></script>
+</body>
+</html>
